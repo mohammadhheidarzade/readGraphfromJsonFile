@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ogma-test"
+    }
+  },
+  "defaultProject": "ogma-test",
+  "cli": {
+    "analytics": "3f136e13-b0d1-4c34-9066-4da734538b21"
+  }
 }

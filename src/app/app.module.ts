@@ -3,10 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { MenuComponent } from './menu/menu.component';
+import { GraphBoardComponent } from './graph-board/graph-board.component';
+import {Ogma} from '../assets/lib/ogma.min.js';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuComponent,
+    GraphBoardComponent
   ],
   imports: [
     BrowserModule,
